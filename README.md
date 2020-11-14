@@ -38,7 +38,7 @@ Improve your coding and interview skills by collaborating with friends using a v
 
 **Optional Nice-to-have Stories**
 
-*Advanced UI/UX design
+* Advanced UI/UX design
 * Whiteboard has different color options for drawing
 * Dashboard
 * Keeps track of questions answered
