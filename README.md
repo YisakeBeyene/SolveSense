@@ -80,6 +80,6 @@ Optional:
 * Settings -> Toggle settings
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src="https://github.com/YisakeBeyene/SolveSense/blob/master/SolveSense%20Wireframe.png" height=500>
+<img src="https://github.com/YisakeBeyene/SolveSense/blob/master/walkthrough.gif" height=500>
 
 ### [BONUS] Interactive Prototype
