@@ -83,4 +83,4 @@ Optional:
 <img src="https://github.com/YisakeBeyene/SolveSense/blob/master/SolveSense%20Wireframe.png" height=200>
 
 ### [BONUS] Interactive Prototype
-<img src="https://i.imgur.com/AiKfE5g.gif" width=200>
+
