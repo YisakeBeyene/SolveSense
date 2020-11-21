@@ -83,3 +83,67 @@ Optional:
 <img src="https://github.com/YisakeBeyene/SolveSense/blob/master/walkthrough.gif" height=500>
 
 ### [BONUS] Interactive Prototype
+
+## Schema 
+### Models
+#### Score
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user score (default field) |
+   | user          | Pointer to User| image user |
+   | questionsSolved | Number   | number of questions completed by user |
+   | solvedAt      | DateTime   | number of likes for the post |
+   | createdAt     | DateTime | date when score is created (default field) |
+   | updatedAt     | DateTime | date when score is updated (default field) |
+
+#### Question
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the question (default field) |
+   | question      | String   | question from list |
+   | questionsCount | Number   | number of questions in the list |
+   | createdAt     | DateTime | date when question is created (default field) |
+   | updatedAt     | DateTime | date when question is updated (default field) |
+
+### Networking
+#### List of network requests by screen
+
+- Dashboard Screen
+	- (Read/GET) Query all questions the user saved/solved
+         ```swift
+         let query = PFQuery(className:"Score")
+         query.whereKey("user", equalTo: currentUser)
+         query.order(byDescending: "createdAt")
+         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+            if let error = error { 
+               print(error.localizedDescription)
+            } else if let scores = scores {
+               print("Successfully retrieved \(scores.count) scores.")
+           // TODO: Do something with scores...
+            }
+         }
+         ```
+	- (Read/GET) List of friends
+	- (Delete) Remove saved question
+   - Questions List Screen
+	- (Read/GET) Query all questions the user saved/solved
+         ```swift
+         let query = PFQuery(className:"Score")
+         query.whereKey("user", equalTo: currentUser)
+         query.order(byDescending: "createdAt")
+         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+            if let error = error { 
+               print(error.localizedDescription)
+            } else if let scores = scores {
+               print("Successfully retrieved \(scores.count) scores.")
+           // TODO: Do something with scores...
+            }
+         }
+         ```
+   - Select Question Screen
+   	- (Create/POST) Create a new score object
+   - Whiteboard Screen
+	- (Read/GET) Query saved work on whiteboard
+	- (Read/GET) Users on whiteboard
