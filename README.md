@@ -147,3 +147,14 @@ Optional:
 - Whiteboard Screen
 	- (Read/GET) Query saved work on whiteboard
 	- (Read/GET) Users on whiteboard
+	
+#### [OPTIONAL:] Existing API Endpoints
+##### Facebook API
+- Base URL - [https://developers.facebook.com/docs/facebook-login/android](https://developers.facebook.com/docs/facebook-login/android)
+
+   HTTP Verb | Endpoint | Description
+   ----------|----------|------------
+    `GET`    | /characters | get all characters
+    `GET`    | /characters/?name=name | return specific character by name
+    `GET`    | /houses   | get all houses
+    `GET`    | /houses/?name=name | return specific house by name
