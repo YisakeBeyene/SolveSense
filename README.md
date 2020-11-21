@@ -127,7 +127,7 @@ Optional:
          ```
 	- (Read/GET) List of friends
 	- (Delete) Remove saved question
-   - Questions List Screen
+- Questions List Screen
 	- (Read/GET) Query all questions the user saved/solved
          ```swift
          let query = PFQuery(className:"Score")
@@ -142,8 +142,8 @@ Optional:
             }
          }
          ```
-   - Select Question Screen
+- Select Question Screen
    	- (Create/POST) Create a new score object
-   - Whiteboard Screen
+- Whiteboard Screen
 	- (Read/GET) Query saved work on whiteboard
 	- (Read/GET) Users on whiteboard
