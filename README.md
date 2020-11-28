@@ -22,30 +22,30 @@ Improve your coding and interview skills by collaborating with friends using a v
 
 **Required Must-have Stories**
 
-[X] User logs in with Facebook to access account and questions
-	[] Use a guest account if they don’t want to commit
-[] There are three fragments:
-	[] White Board
-		[] Each question has its own whiteboard
-		[X] Whiteboard has erase, undo, clear, and save buttons
-	[] Questions
-		[] A recyclerview list of questions that can be selected to open a more detailed window
-		[] Start timer to begin working on question and then can use whiteboard
-	[] Dashboard
-		[] Profile with account name
-		[] Recyclerview list of completed questions
-		[] User can logout
+- [X] User logs in with Facebook to access account and questions
+	- [ ] Use a guest account if they don’t want to commit
+- [ ] There are three fragments:
+	- [ ] White Board
+		- [ ] Each question has its own whiteboard
+		- [X] Whiteboard has erase, undo, clear, and save buttons
+	- [ ] Questions
+		- [ ] A recyclerview list of questions that can be selected to open a more detailed window
+		- [ ] Start timer to begin working on question and then can use whiteboard
+	- [ ] Dashboard
+		- [ ] Profile with account name
+		- [ ] Recyclerview list of completed questions
+		- [ ] User can logout
 
 **Optional Nice-to-Have Stories**
 
-[] Advanced UI/UX design
-[X] Whiteboard has different color options for drawing
-[] Keeps track of questions answered
-[] Can open into fragment to see full question and what you submitted
-[] Score card
-[] Categories for questions
-[] Add your own questions
-[] Pramp type collaboration
+- [ ] Advanced UI/UX design
+- [X] Whiteboard has different color options for drawing
+- [ ] Keeps track of questions answered
+- [ ] Can open into fragment to see full question and what you submitted
+- [ ] Score card
+- [ ] Categories for questions
+- [ ] Add your own questions
+- [ ] Pramp type collaboration
 
 ### 2. Screen Archetypes
 
