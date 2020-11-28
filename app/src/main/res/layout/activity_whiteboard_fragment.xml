@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".WhiteboardFragment" >
+
+    <com.luciferx86.doodlecanvaslibrary.DoodleCanvas
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/whiteBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@android:color/white" />
+
+        <Button
+            android:id="@+id/redBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/whiteBtn"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@android:color/holo_red_light" />
+
+        <Button
+            android:id="@+id/yellowBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/redBtn"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/yellow" />
+
+        <Button
+            android:id="@+id/greenBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/yellowBtn"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/blueBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/greenBtn"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@android:color/holo_blue_bright" />
+
+        <Button
+            android:id="@+id/purpleBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/blueBtn"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@android:color/holo_purple" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttons"
+        android:layout_marginTop="-80dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/erase"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/erase"
+            android:backgroundTint="@android:color/white" />
+
+        <Button
+            android:id="@+id/undo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/erase"
+            android:background="@drawable/undo"
+            android:backgroundTint="@android:color/white" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/undo"
+            android:background="@drawable/clear"
+            android:backgroundTint="@android:color/white" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/clear"
+            android:background="@drawable/save"
+            android:backgroundTint="@android:color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>
