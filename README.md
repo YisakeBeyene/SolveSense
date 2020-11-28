@@ -144,6 +144,10 @@ Optional:
 - Whiteboard Screen
 	- (Read/GET) Query saved work on whiteboard
 	- (Read/GET) Users on whiteboard
-	
+
+## Gifs
 ### Login
 <img src="https://github.com/YisakeBeyene/SolveSense/blob/master/facebooklogin.gif" height=500>
+
+### Whiteboard
+<img src="https://github.com/YisakeBeyene/SolveSense/blob/master/Whiteboard.gif" height=500>
