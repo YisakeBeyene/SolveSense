@@ -100,7 +100,7 @@ Optional:
    | ------------- | -------- | ------------|
    | objectId      | String   | unique id for the question (default field) |
    | question      | String   | question from list |
-   | questionsCount | Number   | number of questions in the list |
+   | submission	   | File     | whiteboard submission as answer |
    | createdAt     | DateTime | date when question is created (default field) |
    | updatedAt     | DateTime | date when question is updated (default field) |
 
