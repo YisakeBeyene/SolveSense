@@ -1,5 +1,5 @@
 package com.codepath.solvesense;
-
+/*
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -130,3 +130,4 @@ public class login extends AppCompatActivity {
     }
 
 }
+*/
